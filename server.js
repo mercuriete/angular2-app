@@ -18,5 +18,5 @@ app.get('*', (req, res) => {
   res.sendFile(__dirname + '/dist/index.html');
 });
 
-app.listen(4200);
+app.listen(80);
 console.log("server is running on http://localhost:4200");
